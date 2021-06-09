@@ -1,0 +1,21 @@
+{
+  "name": "astrack",
+  "description": "a web app made of create-react-app buildpack. Provide star map and track celestial events",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

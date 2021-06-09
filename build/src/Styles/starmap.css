@@ -1,0 +1,23 @@
+body, html {
+    margin: 0; padding: 0; height: 100%; overflow: hidden;
+}
+
+/* offset iframe down 60px because of navbar */
+#starmap
+{
+    position:absolute; left: 0; right: 0; bottom: 0; top: 60px; 
+}
+.warning {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: #f1f1f1;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 70%;
+padding: 20px;
+text-align: center;
+}
